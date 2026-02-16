@@ -142,3 +142,15 @@ button:hover {
     opacity: 0.8;
     text-align: center;
 }
+@media (max-width: 768px) {
+
+    #memoryBtn,
+    #finalBtn {
+        font-size: 20px;
+        padding: 18px 40px;
+        width: 90%;
+        max-width: 340px;
+        box-shadow: 0 8px 25px rgba(0, 150, 255, 0.4);
+    }
+
+}
